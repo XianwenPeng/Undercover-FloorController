@@ -1,4 +1,14 @@
-﻿using UnityEngine;
+﻿/* This is the floor controller which automatically generate maps in the project "Undercover". 
+	Undercover is the first project that I have done with Unity3D. It is meaningful to me.
+
+	This game is a 2.5D multiplayer PvP game in C# with Unity, about fighting the other players while hiding
+	in a bunch of AIs. ​Applied knowledge of A* pathfinding, modelling with Blender
+	● Build AI players: By applying different index of probability to move or attack, AI will behave
+	with different aggressiveness.
+	● Music beat detect: Used an open source library to detect the music beat and synchronize all the
+	movements of models to make the AI more humanoid.*/
+
+using UnityEngine;
 using System.Collections;
 
 public class floor_controller : MonoBehaviour {
